@@ -1,0 +1,90 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Dec 6, 2024, 4:10:49 AM
+    Author     : Admin
+*/
+
+.content{
+    width: calc(40% - 60px);
+    float:left;
+    text-align: center;
+    box-shadow: 0 0 5px #a26b41;
+    margin: 60px 15px;
+}
+
+
+
+
+.sidebar{
+    width: calc(60% - 60px);
+    float:left;
+    text-align: left;
+    margin: 60px 15px;
+}
+.title {
+    text-align: center;
+}
+
+.discription h6{
+    width:100%;
+    text-align: left;
+    word-wrap: break-word;
+    line-height: 1.5;
+}
+.product-detail ul li{
+    list-style-type: circle;
+}
+.product-detail{
+    margin-top: 20px;
+}
+
+
+.main button{
+    font-size: 20px;
+    padding:5px;
+    width:100%;
+
+}
+.main button:hover{
+    transform: scale(1.1);
+}
+.sidebar button{
+    margin-top: 50px;
+}
+
+img:hover{
+    transform: scale(1.15);
+}
+
+        .gradient-border {
+            display: inline-block;
+            padding: 15px; /* Khoảng cách bên trong */
+            border-radius: 10px; /* Bo góc viền */
+            background-color: lightsteelblue;
+            position: relative;
+        }
+
+        .gradient-border::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 10px; /* Đảm bảo viền bo góc */
+            padding: 2px; /* Độ dày viền */
+            background: inherit; /* Sử dụng cùng gradient với background */
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: destination-out;
+            mask-composite: exclude;
+        }
+
+        .gradient-border div {
+            position: relative;
+            background: white; /* Màu nền của nội dung */
+            border-radius: 8px; /* Đảm bảo khớp với viền */
+        }

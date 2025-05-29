@@ -1,0 +1,391 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-size:14px;
+    color: #918e8e;
+    font-weight:400;
+    line-height:1.35;
+    font-family:'Be Vietnam Pro', sans-serif;
+}
+li{
+    list-style:none ;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.section{
+    float: left;
+    width:100%;
+}
+.container{
+    float:none;
+    width:1200px;
+    margin: 0 auto;
+}
+.header{
+    background: linear-gradient(90deg, #fff7ad, #ffa9f9);
+    float:left;
+
+}
+.logo{
+   float:left;
+   padding-left:80px;
+}
+
+
+.top-page input{
+    font-size:20px;
+    border-radius: 10px;
+    border-color: #ff66c4;
+}
+.top-page{
+     float:right;
+    padding:40px 0;
+}
+.top-page a{
+    padding-left:10px;
+    font-size: 20px;
+
+}
+.top-page button{
+
+    background: linear-gradient(90deg, #fff7ad, #ffa9f9);
+    border: 1px solid #ff66c4 ;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.top-page i{
+    color:white;
+}
+.navigation{
+    border-top:2px solid rgba(155, 137, 111, 0.72);
+    background-color: #545454;
+
+}
+.navigator{
+    float:left;
+    padding:0 0;
+    color: white;
+
+}
+.navigator a{
+    font-size:20px;
+    padding-top:25px;
+    color: white;
+    padding-left:15px;
+}
+.navbar-band{
+    color: white;
+}
+.navigator button{
+    font-size:20px;
+    color: white;
+    padding-top:25px;
+}
+.navigator li{
+    float: left;
+    padding-right:55px;
+    color: white;
+}
+.navigator li a{
+    color: white;
+    font-size:20px;
+
+
+}
+
+.login{
+    float:right;
+    padding: 25px 20px;
+}
+.cart i{
+    font-size:25px;
+    color: white;
+}
+.login i{
+    font-size:25px;
+    color: white;
+    background-color:#545454;
+}
+.login button{
+    background-color:#545454;
+    color:white;
+}
+
+.footer{
+    padding:20px 0;
+
+    background-color: #545454;
+}
+.contact{
+    float:left;
+}
+.socialmedia{
+    padding-top:20px;
+    float:right;
+    padding-right:70px;
+}
+.socialmedia i{
+    font-size:35px;
+    color: white;
+
+}
+.contact li{
+    color:white;
+}
+.contact a{
+    color:white;
+}
+.main{
+    min-height: calc(100vh - 300px);
+}
+.footer{
+    height:300px;
+}
+.logo img{
+    width:250px;
+}
+.socialmedia h3{
+    color:white;
+    font-size:25px;
+}
+.socialmedia a{
+    padding:5px;
+  }
+.socialmedia i:hover{
+    transform: scale(1.5);
+}
+.cart i:hover{
+    transform: scale(1.5);
+}
+.map{
+    margin-left:25px;
+}
+.login i:hover{
+    transform: scale(1.5);
+}
+.login .modal-header h5{
+
+    text-align: center;
+    font-size:25px;
+}
+.modal-body i {
+    font-size: 25px;
+    margin-left: 15px;
+    padding:10px;
+    box-shadow: #1a1e21;
+}
+.modal-body input{
+    font-size: 25px;
+    margin-right:15px;
+}
+.modal-body button{
+    padding:10px;
+    margin-left:180px;
+    box-shadow: #1a1e21;
+}
+
+.cart .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#car .modal-content {
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .3rem;
+    outline: 0;
+}
+
+.cart .modal-body {
+    padding: 1rem;
+}
+
+.cart .modal-footer {
+
+    display: flex;
+    border-top: 1px solid #aaaaaa;
+    padding: 1rem;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-top: 1px solid #aaaaaa;
+
+}
+
+.cart .modal-footer>:not(:first-child) {
+    margin-left: .25rem;
+}
+
+.modal-footer .btn {
+    cursor: pointer;
+    outline: none;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: all .2s ease-in-out;
+}
+
+.modal-footer .btn-secondary {
+    color: white;
+    background-color: #545454;
+    border-color: white;
+    font-size:20px;
+}
+
+.modal-footer .btn-primary {
+    font-size:20px;
+    color: white;
+    background-color: #545454;
+    border-color: white;
+}
+
+.cart .modal-header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #aaaaaa;
+    padding: 1rem;
+}
+
+
+
+.cart .close {
+    color: #aaaaaa;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+#cart {
+    font-size: 25px;
+    outline: none;
+    cursor: pointer;
+    background-color: #545454;
+    float:right;
+    padding: 30px 50px;
+}
+.cart-column{
+    float: left;
+    text-align: center;
+}
+.cart-quantity-input{
+    width:100px;
+    box-sizing: border-box;
+
+}
+.cart-quantity{
+    width:100px;
+    box-sizing: border-box;
+
+}
+.cart-column {
+    display: flex;
+    align-items: center;
+
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+.product .btn{
+    border:1px solid #545454;
+}
+.login .btn{
+    border-style:none;
+}
+.modal .modal-header h5{
+    text-align: center;
+    font-size:30px;
+    padding-left:80px;
+
+}
+.modal .modal-body input{
+    text-align: center;
+    font-size:30px;
+    border-radius:10px;
+}
+.modal .modal-body i{
+    text-align: center;
+    font-size:30px;
+    border-radius:10px;
+    margin-left:40px;
+}
+.modal .modal-body button{
+    text-align: center;
+    font-size:20px;
+    border-radius:10px;
+}
+.modal .modal-footer button{
+    text-align: center;
+    font-size:20px;
+    border-radius:10px;
+    padding:10px;
+}
+.modal .modal-body input::placeholder{
+    text-align: center;
+    font-size:20px;
+
+}

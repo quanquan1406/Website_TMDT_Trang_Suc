@@ -1,0 +1,132 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Dec 6, 2024, 4:43:18 AM
+    Author     : Admin
+*/
+
+        .order-history {
+            width: 100%;
+            border-collapse: separate; /* Tạo khoảng cách giữa các ô */
+            border-spacing: 0 20px; /* Giãn cách giữa các hàng */
+            text-align: center !important;
+        }
+        .th-order-history{
+            text-align: center !important;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            font-size: 15px;
+            background-color: #fff;
+        }
+        tr {
+            background-color: #fafafa; /* Màu nền nhạt cho hàng */
+        }
+
+        tr:hover {
+            background-color: #eaeaea; /* Hiệu ứng khi hover */
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        .address-form {
+            gap: 5px; /* Khoảng cách giữa các phần tử */
+        }
+        .input-address{
+            border-radius: 5px;
+            width: 300px;
+            text-align:center !important;
+        }
+        .input-address1{
+            border-radius: 5px;
+            width: 350px;
+        }
+        .button-address{
+            border-radius: 5px;
+            background: linear-gradient(90deg, #fff7ad, #ffa9f9);
+            width: 150px;
+            text-align: center !important;
+        }
+        .button-address1{
+            border-radius: 5px;
+            background: linear-gradient(90deg, #fff7ad, #ffa9f9);
+            width: 100px;
+            margin-left: 10px;
+        }
+        .button-address2{
+            border-radius: 5px;
+            background: linear-gradient(90deg, #fff7ad, #ffa9f9);
+            width: 75px;
+            text-align: center !important;
+            margin-left: -50px;
+        }
+        .button-address3{
+            border-radius: 5px;
+            background: linear-gradient(90deg, #fff7ad, #ffa9f9);
+            width: 150px;
+            text-align: center !important;
+        }
+        .gradient-border {
+            display: inline-block;
+            padding: 15px; /* Khoảng cách bên trong */
+            border-radius: 10px; /* Bo góc viền */
+            background-color: lightsteelblue;
+            position: relative;
+        }
+
+        .gradient-border::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 10px; /* Đảm bảo viền bo góc */
+            padding: 2px; /* Độ dày viền */
+            background: inherit; /* Sử dụng cùng gradient với background */
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: destination-out;
+            mask-composite: exclude;
+        }
+
+        .gradient-border div {
+            position: relative;
+            background: white; /* Màu nền của nội dung */
+            border-radius: 8px; /* Đảm bảo khớp với viền */
+        }
+        .modal-dialog-centered {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh; /* Đảm bảo modal căn giữa dọc */
+        }
+        .return a{
+                padding:10px;
+                background: linear-gradient(90deg, #fff7ad, #ffa9f9);
+                color:black;
+                border-radius:5px;
+            }
+        .button-cart{
+            border-radius: 5px;
+            background: linear-gradient(90deg, #fff7ad, #ffa9f9);
+            width: auto;
+            text-align: center !important;
+        }
+        .input-cart{
+            width: 50px;
+            border-radius: 5px;
+            text-align: center !important;
+        }
+        .button-cart1{
+            border-radius: 5px;
+            background: linear-gradient(90deg, #fff7ad, #ffa9f9);
+            width: 200px;
+            text-align: center !important;
+            height: 50px;
+            margin-bottom:75px;
+        }
