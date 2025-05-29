@@ -28,7 +28,7 @@ async function sendMessage() {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
-                "Authorization": "Bearer 3ad8d99c83f83805589f84d4aae2690285b9e4bdf82fea935c85ecab52ae5bb6"
+                "Authorization": "Bearer 18b38f3a872d5ecfed03e593cfc1bec12f4342aaf326855c11655a4ae493101b"
             },
             body: JSON.stringify({
                 model: "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free",
