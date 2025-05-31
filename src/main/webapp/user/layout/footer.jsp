@@ -25,17 +25,6 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <div id="chatTooltip">Xin chào, bạn cần tôi giúp gì không?</div>
-        <div id="chatLauncher" onclick="toggleChat()"></div>
-
-        <div id="chatContainer">
-            <h4 style="text-align: center; margin: 10px;">💬 Chatbot Web-TMĐT Nhóm 5</h4>
-            <div id="chatbox"></div>
-            <div style="display: flex; align-items: center;">
-                <input type="text" id="userInput" placeholder="Nhập tin nhắn...">
-                <button id="sendButton" onclick="sendMessage()">Gửi</button>
-            </div>
-        </div>
         <footer class="section footer">
             <div class="container">
                 <div class="contact">

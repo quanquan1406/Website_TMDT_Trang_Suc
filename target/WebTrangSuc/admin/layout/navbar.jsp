@@ -44,7 +44,10 @@
                                 <i class="fas fa-map-marker-alt" style="margin-right: 8px;"></i>
                                   Quản lý địa chỉ khách hàng
                             </a>
-                             
+                            <a class="nav-link" href="<%= request.getContextPath() %>/admin/Thong_ke/Thong_ke.jsp">
+                                <i class="fas fa-chart-bar" style="margin-right: 8px;"></i>
+                                    Dashboard Thống kê
+                            </a>
                         </div>
                     </div>
                     <div class="sb-sidenav-footer">
